@@ -300,4 +300,11 @@ Devise.setup do |config|
 
   # mail setting
   config.mailer_sender = "kitamori6@gmail.com"
+
+  # lock sessings
+  config.unlock_strategy = :email
+  config.maximum_attempts = 4
+
+  # timeout setting
+  config.timeout_in = 30.minutes
 end
