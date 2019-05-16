@@ -61,3 +61,15 @@ gem 'devise'
 gem 'omniauth-twitter'
 
 gem 'devise-bootstrap-views', '~> 1.0'
+
+# 表示順を管理する
+gem 'ranked-model'
+
+# フォーム追加
+gem 'nested_form'
+
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 5.0'
+
+# Use sqlite3 as the database for Active Record
+gem 'mysql2'
