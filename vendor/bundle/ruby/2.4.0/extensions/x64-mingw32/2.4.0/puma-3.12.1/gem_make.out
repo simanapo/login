@@ -1,0 +1,21 @@
+current directory: C:/sample/rails_sample/vendor/bundle/ruby/2.4.0/gems/puma-3.12.1/ext/puma_http11
+C:/Ruby24-x64/bin/ruby.exe -r ./siteconf20190516-12700-z8vhgf.rb extconf.rb
+checking for BIO_read() in -lcrypto... no
+checking for BIO_read() in -llibeay32... no
+creating Makefile
+
+current directory: C:/sample/rails_sample/vendor/bundle/ruby/2.4.0/gems/puma-3.12.1/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: C:/sample/rails_sample/vendor/bundle/ruby/2.4.0/gems/puma-3.12.1/ext/puma_http11
+make "DESTDIR="
+generating puma_http11-x64-mingw32.def
+compiling http11_parser.c
+compiling io_buffer.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: C:/sample/rails_sample/vendor/bundle/ruby/2.4.0/gems/puma-3.12.1/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20190516-12700-opszl0/puma
